@@ -11,6 +11,8 @@ jobs:
         node-version: [16]
     steps:
       - uses: actions/checkout@v3
+      - name: Prepare repository
+        run: git fetch --unshallow --tags
       - uses: pnpm/action-setup@v2.2.4
         with:
           version: 7
