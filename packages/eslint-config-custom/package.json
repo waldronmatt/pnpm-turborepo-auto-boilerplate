@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-custom",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "@waldronmatt/eslint-config": "^1.5.9",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}

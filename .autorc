@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    [
+      "npm",
+      {
+        "forcePublish": false,
+        "monorepoChangelog": false
+      }
+    ],
+    [
+      "conventional-commits",
+      {
+        "preset": "angular"
+      }
+    ]
+  ]
+}
