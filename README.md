@@ -1,61 +1,23 @@
-# My Awesome Project
+# pnpm | turborepo | auto
 
-`README.md` template for projects.
+A monorepo boilerplate using `pnpm` (installer), `turborepo` (task-runner), and `auto` (publisher).
 
 ## Features
 
-- Number one
-- Number two
-- Number three
+- Installer
 
 ## Installation
 
 Install dependencies:
 
 ```bash
-yarn
+pnpm i
 ```
 
 Install hooks:
 
 ```bash
-yarn prepare
-```
-
-Install `make`:
-
-```bash
-[your-package-manager] install make
-```
-
-Install `yamllint` and `actionlint`.
-
-## Getting Started
-
-Run dev environment:
-
-```bash
-yarn dev
-```
-
-Build and serve for Netlify:
-
-```bash
-yarn build
-```
-
-**Note:** Configure script in Netlify to auto-run via push to `main` branch.
-
-Build for Express:
-
-```bash
-yarn prod
-```
-
-Serve for Express:
-
-```bash
-yarn serve
+pnpm prepare
 ```
 
 ## Commands
@@ -63,30 +25,44 @@ yarn serve
 Commit changes using conventional changelog:
 
 ```bash
-yarn commit
+pnpm commit
 ```
 
 Lint files:
 
 ```bash
-yarn lint
-```
-
-**Note**: `release.yml` will run this before versioning and publishing.
-
-Lint `.yml` files:
-
-```bash
-make -f MAKEFILE
+pnpm lint
 ```
 
 Run tests:
 
 ```bash
-yarn test
+pnpm test
 ```
 
-**Note**: `release.yml` will run this before versioning and publishing.
+Run tests in watch mode:
+
+```bash
+pnpm test:watch
+```
+
+Compile files, build bundle:
+
+```bash
+pnpm build
+```
+
+Run tests against bundle:
+
+```bash
+pnpm test:prod
+```
+
+Clean up bundle, typescript, and jest artifacts:
+
+```bash
+pnpm clean
+```
 
 ## License
 
