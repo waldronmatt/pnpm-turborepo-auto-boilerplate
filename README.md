@@ -2,10 +2,6 @@
 
 A monorepo boilerplate using `pnpm` (installer), `turborepo` (task-runner), and `auto` (publisher).
 
-## Features
-
-- Installer
-
 ## Installation
 
 Install dependencies:
