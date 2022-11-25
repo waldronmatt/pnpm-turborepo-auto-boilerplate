@@ -36,8 +36,6 @@ pnpm auto create-labels
 
 [Create and set up your `TURBO_TOKEN` and `TURBO_TEAM` for task running remote caching](https://turbo.build/repo/docs/ci/github-actions#remote-caching).
 
-## Getting Started
-
 ## Commands
 
 Commit changes using conventional changelog:
