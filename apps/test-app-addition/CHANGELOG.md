@@ -1,3 +1,17 @@
+# v1.1.2 (Fri Nov 25 2022)
+
+#### 🐛 Bug Fix
+
+- fix(index.ts): changed comment to test build ([@waldronmatt](https://github.com/waldronmatt))
+- fix(index.ts): add another test comment to test build ([@waldronmatt](https://github.com/waldronmatt))
+- fix(index.ts): add test comment to test build ([@waldronmatt](https://github.com/waldronmatt))
+
+#### Authors: 1
+
+- Matthew Waldron ([@waldronmatt](https://github.com/waldronmatt))
+
+---
+
 # v1.1.1 (Thu Nov 24 2022)
 
 #### 🐛 Bug Fix
