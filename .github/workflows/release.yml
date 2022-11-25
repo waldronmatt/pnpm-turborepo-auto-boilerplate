@@ -6,6 +6,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-20.04
+    env:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
     strategy:
       matrix:
         node-version: [16]
