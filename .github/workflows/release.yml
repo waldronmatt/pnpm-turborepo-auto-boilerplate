@@ -15,8 +15,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Prepare repository
-        run: git fetch --unshallow --tags
+      - name: Fetch tags
+        run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
       - name: Install Node.js
         uses: actions/setup-node@v3
