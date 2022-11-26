@@ -1,3 +1,22 @@
+# (Sat Nov 26 2022)
+
+#### 🐛 Bug Fix
+
+- fix(package.json): fix broken auto config ref ([@waldronmatt](https://github.com/waldronmatt))
+- fix(pnpm-lock.yaml): update lockfile ([@waldronmatt](https://github.com/waldronmatt))
+- fix(library.json): change to lib config ([@waldronmatt](https://github.com/waldronmatt))
+- fix(.autorc): migrate to shared config ([@waldronmatt](https://github.com/waldronmatt))
+- fix(library.json): use shared tsconfig ([@waldronmatt](https://github.com/waldronmatt))
+- docs(readme.md): remove duplicated text ([@waldronmatt](https://github.com/waldronmatt))
+- docs(readme.md): add directions for token setup ([@waldronmatt](https://github.com/waldronmatt))
+- ci(release.yml): add turbo tokens for remote caching ([@waldronmatt](https://github.com/waldronmatt))
+
+#### Authors: 1
+
+- Matthew Waldron ([@waldronmatt](https://github.com/waldronmatt))
+
+---
+
 # (Fri Nov 25 2022)
 
 #### 🐛 Bug Fix
