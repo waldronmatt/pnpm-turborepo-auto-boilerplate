@@ -96,7 +96,10 @@ importers:
       ts-jest: 29.0.3
 
   packages/tsconfig-config:
-    specifiers: {}
+    specifiers:
+      '@waldronmatt/tsconfig-config': ^2.0.0
+    devDependencies:
+      '@waldronmatt/tsconfig-config': 2.0.0
 
 packages:
   /@ampproject/remapping/2.2.0:
@@ -3369,6 +3372,15 @@ packages:
       prettier: '>= 2'
     dependencies:
       prettier: 2.8.0
+    dev: true
+
+  /@waldronmatt/tsconfig-config/2.0.0:
+    resolution:
+      {
+        integrity: sha512-vm3O4TH8jxjsGLyAMYIaL2yDTVQtIEyo+znKf8fpx7K3kc+UO0VMftFoqtSFIjdzhq8Z3dnDzyOUzufLkR3YRQ==,
+      }
+    peerDependencies:
+      typescript: '>= 4'
     dev: true
 
   /@yarnpkg/lockfile/1.1.0:
