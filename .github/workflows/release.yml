@@ -54,7 +54,7 @@ jobs:
         run: pnpm lint
 
       - name: Build
-        run: pnpm build
+        run: pnpm build:prod
 
       - name: Test
         run: pnpm test:prod

@@ -1,6 +1,6 @@
 {
   "name": "pnpm-turborepo-auto-boilerplate",
-  "description": "",
+  "description": "A monorepo boilerplate using pnpm, turborepo, and auto.",
   "private": true,
   "author": "Matthew Waldron",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "test:watch": "turbo run test:watch",
     "test:prod": "turbo run test:prod --parallel",
     "build": "turbo run build --parallel",
-    "clean": "turbo run clean --parallel"
+    "build:prod": "turbo run build --parallel"
   },
   "license": "MIT",
   "devDependencies": {

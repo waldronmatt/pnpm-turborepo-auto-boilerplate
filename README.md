@@ -2,6 +2,8 @@
 
 A monorepo boilerplate using `pnpm` (installer), `turborepo` (task-runner), and `auto` (publisher).
 
+Boilerplate based on the turborepo [kitchen sink starter](https://github.com/vercel/turbo/tree/main/examples/kitchen-sink).
+
 ## Installation
 
 Install dependencies:
@@ -26,7 +28,7 @@ pnpm auto init
 
 [Create your `GH_TOKEN` and `NPM_TOKEN` for versioning and publishing.](https://intuit.github.io/auto/docs/welcome/getting-started#2-configure-environment-variables)
 
-**Note**: Make sure to set up your `NPM_TOKEN` via `Settings` -> `Secret` -> `Actions`
+**Note**: Make sure to set up your `NPM_TOKEN` via `Settings` -> `Secrets` -> `Actions`
 
 Create `GitHub` labels:
 
@@ -50,7 +52,7 @@ Lint files:
 pnpm lint
 ```
 
-Run tests:
+Run tests with coverage:
 
 ```bash
 pnpm test
@@ -62,22 +64,22 @@ Run tests in watch mode:
 pnpm test:watch
 ```
 
-Compile files, build bundle:
+Clean up bundle artifacts (dist, typescript, jest), compile files, and build bundle:
 
 ```bash
 pnpm build
+```
+
+Compile files and build bundle:
+
+```bash
+pnpm build:prod
 ```
 
 Run tests against bundle:
 
 ```bash
 pnpm test:prod
-```
-
-Clean up bundle, typescript, and jest artifacts:
-
-```bash
-pnpm clean
 ```
 
 ## License
