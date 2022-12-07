@@ -1,3 +1,15 @@
+# v1.2.1 (Wed Dec 07 2022)
+
+#### 🐛 Bug Fix
+
+- fix(apps): add npm-run-all as a dev dep ([@waldronmatt](https://github.com/waldronmatt))
+
+#### Authors: 1
+
+- Matthew Waldron ([@waldronmatt](https://github.com/waldronmatt))
+
+---
+
 # v1.2.0 (Wed Dec 07 2022)
 
 #### 🚀 Enhancement

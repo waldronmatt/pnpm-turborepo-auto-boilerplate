@@ -1,5 +1,18 @@
 # (Wed Dec 07 2022)
 
+#### 🐛 Bug Fix
+
+- `@waldronmatt/test-app-addition@1.2.1`, `@waldronmatt/test-app-subtraction@1.2.1`
+  - fix(apps): add npm-run-all as a dev dep ([@waldronmatt](https://github.com/waldronmatt))
+
+#### Authors: 1
+
+- Matthew Waldron ([@waldronmatt](https://github.com/waldronmatt))
+
+---
+
+# (Wed Dec 07 2022)
+
 #### 🚀 Enhancement
 
 - `@waldronmatt/test-app-addition@1.2.0`, `@waldronmatt/test-app-subtraction@1.2.0`
