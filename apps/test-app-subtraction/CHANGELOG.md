@@ -1,3 +1,15 @@
+# v1.2.0 (Wed Dec 07 2022)
+
+#### 🚀 Enhancement
+
+- feat(apps): new build script auto cleans artifacts and compiles ([@waldronmatt](https://github.com/waldronmatt))
+
+#### Authors: 1
+
+- Matthew Waldron ([@waldronmatt](https://github.com/waldronmatt))
+
+---
+
 # v1.1.2 (Fri Nov 25 2022)
 
 #### 🐛 Bug Fix

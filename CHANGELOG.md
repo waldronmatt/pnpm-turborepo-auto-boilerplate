@@ -1,3 +1,16 @@
+# (Wed Dec 07 2022)
+
+#### 🚀 Enhancement
+
+- `@waldronmatt/test-app-addition@1.2.0`, `@waldronmatt/test-app-subtraction@1.2.0`
+  - feat(apps): new build script auto cleans artifacts and compiles ([@waldronmatt](https://github.com/waldronmatt))
+
+#### Authors: 1
+
+- Matthew Waldron ([@waldronmatt](https://github.com/waldronmatt))
+
+---
+
 # (Sat Nov 26 2022)
 
 #### 🐛 Bug Fix
