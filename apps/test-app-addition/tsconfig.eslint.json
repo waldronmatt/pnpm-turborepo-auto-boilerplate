@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "include": [".eslintrc.js", "jest.config.js", "src/*"],
+  "include": [".*.js", "*.js", "src/*"],
   "compilerOptions": {
     "noEmit": true,
     "allowJs": true
