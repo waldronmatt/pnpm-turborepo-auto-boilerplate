@@ -1,3 +1,21 @@
+# (Thu Dec 08 2022)
+
+#### 🐛 Bug Fix
+
+- revert(root): add back the standalone clean turbo script ([@waldronmatt](https://github.com/waldronmatt))
+- `@waldronmatt/test-app-addition@1.2.2`, `@waldronmatt/test-app-subtraction@1.2.2`
+  - fix(apps): have eslint ignore dist folder ([@waldronmatt](https://github.com/waldronmatt))
+  - fix(apps): update exclude with all js files for tsconfig.eslint.json ([@waldronmatt](https://github.com/waldronmatt))
+  - fix(apps): update includes for any js files in tsconfig.eslint.json ([@waldronmatt](https://github.com/waldronmatt))
+  - fix(apps): simplify tsconfig.build.json configs ([@waldronmatt](https://github.com/waldronmatt))
+  - chore(apps): remove rootdir from tsconfig ([@waldronmatt](https://github.com/waldronmatt))
+
+#### Authors: 1
+
+- Matthew Waldron ([@waldronmatt](https://github.com/waldronmatt))
+
+---
+
 # (Wed Dec 07 2022)
 
 #### 🐛 Bug Fix
