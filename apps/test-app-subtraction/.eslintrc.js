@@ -15,4 +15,5 @@ module.exports = {
       extends: ['@waldronmatt/eslint-config'],
     },
   ],
+  ignorePatterns: ['dist/**'],
 };
